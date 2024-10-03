@@ -2,6 +2,7 @@ export type Asset = {
   readonly id?: number;
   sku: string;
   team_name: string;
+  asset_type_name: string;
   // product: string;
   // product_version: string;
   // title: string;

@@ -25,9 +25,9 @@ jobs:
       - name: Publish to GitHub Package Registry
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: npm publish
+        run: npm publish --registry https://npm.pkg.github.com
 
       - name: Verify publication
-        run: npm info @RedHatTraining/catalog-manager-models
+        run: npm info @redhattraining/catalog-manager-models --registry https://npm.pkg.github.com
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}

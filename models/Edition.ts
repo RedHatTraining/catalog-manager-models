@@ -13,6 +13,6 @@ export type Edition = {
   jira_PTL_release: string;
   jenkins_build: string;
   audience_blurb: string;
-  prerequisites_blurb: string | null;
+  prerequisites_blurb?: string;
   sk_version: string;
 };

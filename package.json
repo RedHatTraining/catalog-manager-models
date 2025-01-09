@@ -1,7 +1,7 @@
 {
   "name": "@redhattraining/catalog-manager-models",
   "repository": "https://github.com/RedHatTraining/catalog-mangaer-models",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "license": "MIT",
   "main": "index.ts",

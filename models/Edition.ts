@@ -8,7 +8,7 @@ export type Edition = {
   edition_status: number;
   release_tag: string;
   release_tag_date: string;
-  release_tag_creation_date: string | null;
+  release_tag_creation_date?: string;
   jira_CDEV_release: string;
   jira_PTL_release: string;
   jenkins_build: string;

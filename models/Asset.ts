@@ -10,7 +10,7 @@ export type Asset = {
   // title: string;
   // edition_number: number;
   // status_name: string;
-
+  short_title: string;
   version_count: number;
   edition_count: number;
 };
